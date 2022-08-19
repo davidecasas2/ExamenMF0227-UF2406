@@ -1,9 +1,23 @@
 package funciones;
 
+/**
+ * Clase de utilidades que implementa algunos métodos
+ * @author David Casas
+ *
+ */
 public class Utilidades {
 
 	
 
+	/**
+	 * Método que devuelve una cadena con la representacion de la nota 
+	 * en base a la nota pasada como parámetro en valor decimal
+	 * @param double nota la nota en valor decimal
+	 * @return String con la representación de la nota: Suspenso, Bien,
+	 *         Notable, Sobresaliente o Matrícula
+	 * @throws ArithmeticException que se lanza si la nota es inferior a 0
+	 *         o superior a 10
+	 */
 	public String devuelveNota(double nota) {
 		String descripcion = "Matrícula";
 		
